@@ -162,7 +162,7 @@ TP(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
 _G.Clip = false
   end)
  
- w:Toggle("ออโต้หาเกาะลับ",function(v)
+ w:Toggle("ฟามปลา",function(v)
 Farm = v
 while Farm do wait()
 game:GetService("VirtualInputManager"):SendKeyEvent(true,"E",false,game)
