@@ -152,8 +152,16 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2583.03
 
 
 local Tab = Window:MakeTab({
-	Name = "เร็วๆนี้",
+	Name = "วิ่งเร็ว",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
+
+Tab:AddButton({
+	Name = "Speed Hack",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoroKunGCH/Speed-hack-2/main/README.md"))()
+      		print("button pressed")
+  	end    
+})
